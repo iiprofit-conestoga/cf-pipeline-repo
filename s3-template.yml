@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: CloudFormation template to create an S3 bucket with configurable name and versioning
+Description: S3 bucket with name and versioning.
 
 Parameters:
   BucketName:
@@ -11,8 +11,8 @@ Parameters:
     Default: 'Enabled'
     AllowedValues:
       - 'Enabled'
-      - 'Disabled'
-    Description: Enable or disable versioning for the S3 bucket..
+      - 'Suspended'
+    Description: Enable or Suspended versioning for the S3 bucket..
 
 Resources:
   S3Bucket:
