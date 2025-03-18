@@ -12,7 +12,7 @@ Parameters:
     AllowedValues:
       - 'Enabled'
       - 'Disabled'
-    Description: Enable or disable versioning for the S3 bucket
+    Description: Enable or disable versioning for the S3 bucket.
 
 Resources:
   S3Bucket:
